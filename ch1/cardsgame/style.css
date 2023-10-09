@@ -1,0 +1,52 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+main{
+    /* background-image: url(https://agendadeisa.com/wp-content/uploads/2020/03/Carta1.jpg); */
+    opacity: initial;
+    vertical-align: middle;
+}
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+li{
+    font-size: 15px;
+    text-align: start;
+    
+}
+.row {
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    /* align-items: start; */
+    gap: 1;
+    padding-top: 60px;
+    row-gap: normal;
+}
+.Cards{
+    background-color: white;
+    /* grid-gap: 20px; */
+    width: 30%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    border-radius: 16px;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 75px;
+}
