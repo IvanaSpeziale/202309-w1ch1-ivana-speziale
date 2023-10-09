@@ -1,0 +1,16 @@
+{
+  "name": "202309-w1ch1-ivana-speziale",
+  "version": "1.0.0",
+  "description": "Repositorio del challenge 1, de la semana 1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  }
+}
