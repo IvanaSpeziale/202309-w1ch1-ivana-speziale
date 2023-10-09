@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pasapalabras</title>
+    <meta name="description" content="Sitio web para jugar pasapalabras">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+    <script type="module" src="./main3.js" defer></script>
+</head>
+<body>
+   <header>
+    <h1>Pasapalabra</h1>
+   </header>
+   <div class="letters">
+    <p class="a-letter">A</p>
+    <p class="b-letter">B</p>
+    <p class="letter">C</p>
+    <p class="letter">D</p>
+    <p class="letter">E</p>
+    <p class="letter">F</p>
+    <p class="letter">G</p>
+    <p class="letter">H</p>
+    <p class="letter">I</p>
+    <p class="letter">J</p>
+    <p class="letter">K</p>
+    <p class="letter">L</p>
+    <p class="letter">M</p>
+    <p class="letter">N</p>
+    <p class="letter">O</p>
+    <p class="letter">P</p>
+    <p class="letter">Q</p>
+    <p class="letter">R</p>
+    <p class="letter">S</p>
+    <p class="letter">T</p>
+    <p class="letter">U</p>
+    <p class="letter">V</p>
+    <p class="letter">W</p>
+    <p class="letter">X</p>
+    <p class="letter">Y</p>
+    <p class="letter">Z</p>
+
+    
+   </div>
+   <section>
+    <form action="submitAction">
+        <div class="questionAsked">
+            <p class = "ask"></p>
+        </div>
+        <div class="for-container" >
+            <label for="question">
+                <p class="questions">Pregunta: </p>
+            </label>
+            <input type="text" name="answer" id="question" required placeholder="Respuesta">
+        </div>
+        <button type="submit">Enviar respuesta</button>
+    </form>
+    <div class="otherButtons">
+        <button type="button">Pasapalabra</button>
+        <button type="button">Terminar juego</button>        
+    </div>
+   </section>
+</body>
+</html>

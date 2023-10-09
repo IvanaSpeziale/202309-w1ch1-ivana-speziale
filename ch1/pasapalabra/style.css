@@ -1,0 +1,24 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.principal{
+    margin: 23% ;
+    text-align: center;
+    position: relative;
+}
+ .button{
+    background-color: antiquewhite;
+    border-color: black;
+    border-style: double;
+    margin: 5px;
+    font-size: 25px;
+
+}
+.letters{
+    display: flex;
+    column-gap: 15px;
+}
+.grey-letter{
+    color:aqua
+}
